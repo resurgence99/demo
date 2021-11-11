@@ -22,4 +22,4 @@ git push origin [branch name]
     -> it is used to upload local repository content to a remote repository. Here github is the remote repository.
 
 We are working on the main branch.
-
+We are working on the master branch.
