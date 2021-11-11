@@ -9,3 +9,6 @@ git reset
     -> used to remove the state of the current working directory and staging area.
 git status
     -> used to find the state of the current working directory and staging area.
+git commit
+    -> the command used to save the projects currently staged changes
+
