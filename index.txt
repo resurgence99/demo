@@ -1,0 +1,11 @@
+This is a hello world line.
+Git config -- global user.name "Ganesh G"
+Git config -- global user.email "taresh.1999@gmail.com"
+git init
+    -> initializes an empty git repositry.
+git add
+    -> used to add files to the staging area.
+git reset
+    -> used to remove the state of the current working directory and staging area.
+git status
+    -> used to find the state of the current working directory and staging area.
