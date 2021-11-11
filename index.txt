@@ -2,7 +2,7 @@ This is a hello world line.
 Git config -- global user.name "Ganesh G"
 Git config -- global user.email "taresh.1999@gmail.com"
 git init
-    -> initializes an empty git repositry.
+    -> initializes an empty git repository.
 git add
     -> used to add files to the staging area.
 git reset
@@ -11,4 +11,15 @@ git status
     -> used to find the state of the current working directory and staging area.
 git commit
     -> the command used to save the projects currently staged changes
+git log
+    -> command shows the detailed history of all commits
+git log --oneline
+    -> command shows the one line history of all commits
+
+git remote add origin https://github.com/resurgence99/demo.git to add the repository
+
+git push origin [branch name]
+    -> it is used to upload local repository content to a remote repository. Here github is the remote repository.
+
+We are working on the main branch.
 
