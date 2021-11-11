@@ -23,3 +23,6 @@ git push origin [branch name]
 
 We are working on the main branch.
 We are working on the master branch.
+
+git pull origin [branch name]
+    -> to pull the current updated file from github.
