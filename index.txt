@@ -26,3 +26,6 @@ We are working on the master branch.
 
 git pull origin [branch name]
     -> to pull the current updated file from github.
+
+git clone "url directly"
+    -> to clone a repository
