@@ -1,77 +1,93 @@
-<!-- HTML stands for hyper text markup language.
+<!DOCTYPE html>
 
-    In HTML we have two types of elements
-        1. Block elements - Will occupy the entire width of the page.
-        2. Inline elements - Will occupy the space needed by the elements.
--->
-<!DOCTYPE html> <!-- specifies to the browser that we are using html 5-->
-<html>
-    <head><!--The head tag contains meta data for the page.-->
-        <title>HTML Document</title><!--Tittle for the web page-->
-        <meta charset="UTF-8"><!-- Specifying character encoding to the browser-->
-        <meta name="Ganesh G" description="Learning HTML">
-    </head>
+<html lang="en">
 
-    <body>
-        <h1> This is a header </h1>
-        <h2> This is a header</h2>
-        <h3> This is a header</h3>
-        <h4> This is a header</h4>
-        <h5> This is a header</h5>
-        <h6> This is a header</h6>
-        <div>
-            <span> My <b>Name</b> is <strong>John</strong></span>
-            <span> <em> First </em>day in the company <u>ITC&nbsp;&nbsp; <mark>Infotech</mark> </u> </span>
-            <p> I have been <small>hired</small> here as an <strike>engineering</strike> employee.</p>
-            <p> H<sub>2</sub>O. <br> 3<sup>2</sup> = 9 <hr>
-                Spaces are not rendered on the page in HTML tag.
-            </p>
-            <a href="https://www.google.com/" > Google.com in the same page </a><br>
-            <!-- HTML attributes contain additional pieces of information and specified inside the opening tag.  -->
-            <a href="https://www.google.com/" target="_blank" > Google.com in the new page </a>
-        </div>
-        <br>
+<head>
 
-        <form>
-            <label for="name">Full Name</label>
-            <input type="text" name="name" required>
-            <label for="button">Click Bait</label>
-            <input type="button" name="button" value="Click Bait">
-            <input type="color">
-            <input type="password">
-            <br>
-            <input type="file">
-            <input type="range"><br>
-            <button type = "submit">Submit</button>
-            <br>
-        </form>
+    <meta charset="UTF-8">
 
-        <img src="lake_image.jfif" alt="An Image of Lake" width="500px" >
-        <ol>
-            <li> Ganesh </li>
-            <li> Ajay </li>
-            <li> Nithin
-                <ul>
-                    <li> ITC Employee</li>
-                </ul>
-             </li>
-        </ol>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
 
-        <ul>
-            <li> Ganesh </li>
-            <li> Ajay </li>
-            <li> Nithin </li>
-        </ul>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <audio controls >
-            <source src="parrot_sound.mp3" type="audio/mp3"> 
-            Parrot Sound
-        </audio><br>
-        <video controls muted>
-            <source src="horse_video.mp4" type="audio/mp4">
-        </video>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <a class="facebook" href=""> facebook</a>
+
+    <h1>ITC Infotech</h1>
+
+    <div id="nav">
 
 
-    </body>
-</html>
 
+        <p id="home"> Home page</p>
+
+        <p class="nav rome">about page</p>
+
+        <p class="rome">contact us</p>
+
+    </div>
+
+    <div>
+
+        <a class="twitter" href=""> Twitter</a>
+
+        <button id="btn">Click here to subscribe</button>
+
+        <p class="hidden">
+            ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+            Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+            section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+            1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+            original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form, by injected humour, or randomised words which don't look even slightly believable. If you are
+            going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+            middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+            necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic
+            words etc.
+
+            ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+            Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+            section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+            1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+            original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form, by injected humour, or randomised words which don't look even slightly believable. If you are
+            going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+            middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+            necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic
+            words etc.
+        </p>
+
+    </div>
+
+    <br>
+
+    <br>

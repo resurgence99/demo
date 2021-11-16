@@ -1,0 +1,104 @@
+body{
+    box-sizing: border-box;
+
+}
+h1 {
+    position:sticky;
+    top:40px;
+    color :black;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-decoration:underline;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: center;
+    color :rgba(165, 42, 42, 0.5);
+
+
+}
+
+#nav
+{
+    border: 3px blue;
+    border-style: solid;
+    border-radius: 10px 2px 20px 40px;
+
+    /* text-align: center; */
+
+
+}
+p{
+    margin:20px;
+    padding:15px;
+    border:1px solid black;
+    font-size: 20px;
+
+}
+#home{
+    color:blue;
+    /* display:none; */
+    /* visibility: hidden; */
+}
+.nav{
+    color:chartreuse;
+}
+.rome{
+    color:chocolate;
+}
+div{
+    margin: 20px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 40px;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:brown;
+    font-size: 40px;
+}
+
+button{
+    padding:20px;
+    background-color: chartreuse;
+    border:none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn{
+    position:relative;
+    left:20px;
+    bottom:-50px;
+}
+
+.google{
+    position: absolute;
+    top:11%;
+    left:45%;
+}
+
+.twitter{
+    position:fixed;
+}
+
+.facebook{
+    position:sticky;
+    top:0;
+}
+
+.visible{
+    visibility:visible;
+}
+
+.hidden{
+    visibility:hidden;
+}

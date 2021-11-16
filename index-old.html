@@ -1,0 +1,77 @@
+<!-- HTML stands for hyper text markup language.
+
+    In HTML we have two types of elements
+        1. Block elements - Will occupy the entire width of the page.
+        2. Inline elements - Will occupy the space needed by the elements.
+-->
+<!DOCTYPE html> <!-- specifies to the browser that we are using html 5-->
+<html>
+    <head><!--The head tag contains meta data for the page.-->
+        <title>HTML Document</title><!--Tittle for the web page-->
+        <meta charset="UTF-8"><!-- Specifying character encoding to the browser-->
+        <meta name="Ganesh G" description="Learning HTML">
+    </head>
+
+    <body>
+        <h1> This is a header </h1>
+        <h2> This is a header</h2>
+        <h3> This is a header</h3>
+        <h4> This is a header</h4>
+        <h5> This is a header</h5>
+        <h6> This is a header</h6>
+        <div>
+            <span> My <b>Name</b> is <strong>John</strong></span>
+            <span> <em> First </em>day in the company <u>ITC&nbsp;&nbsp; <mark>Infotech</mark> </u> </span>
+            <p> I have been <small>hired</small> here as an <strike>engineering</strike> employee.</p>
+            <p> H<sub>2</sub>O. <br> 3<sup>2</sup> = 9 <hr>
+                Spaces are not rendered on the page in HTML tag.
+            </p>
+            <a href="https://www.google.com/" > Google.com in the same page </a><br>
+            <!-- HTML attributes contain additional pieces of information and specified inside the opening tag.  -->
+            <a href="https://www.google.com/" target="_blank" > Google.com in the new page </a>
+        </div>
+        <br>
+
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" required>
+            <label for="button">Click Bait</label>
+            <input type="button" name="button" value="Click Bait">
+            <input type="color">
+            <input type="password">
+            <br>
+            <input type="file">
+            <input type="range"><br>
+            <button type = "submit">Submit</button>
+            <br>
+        </form>
+
+        <img src="lake_image.jfif" alt="An Image of Lake" width="500px" >
+        <ol>
+            <li> Ganesh </li>
+            <li> Ajay </li>
+            <li> Nithin
+                <ul>
+                    <li> ITC Employee</li>
+                </ul>
+             </li>
+        </ol>
+
+        <ul>
+            <li> Ganesh </li>
+            <li> Ajay </li>
+            <li> Nithin </li>
+        </ul>
+
+        <audio controls >
+            <source src="parrot_sound.mp3" type="audio/mp3"> 
+            Parrot Sound
+        </audio><br>
+        <video controls muted>
+            <source src="horse_video.mp4" type="audio/mp4">
+        </video>
+
+
+    </body>
+</html>
+
