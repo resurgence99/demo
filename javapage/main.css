@@ -1,0 +1,17 @@
+.header{
+    color:rgb(34, 34, 34);
+    font-size:5rem;
+    text-align:center;
+}
+
+#button-1{
+    background-color: orange;
+    border: 1px solid rgb(36, 36, 36);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 20px;
+    color:rgb(34, 34, 34);
+    position:relative;
+    left:45%;
+}
+
