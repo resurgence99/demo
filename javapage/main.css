@@ -4,7 +4,19 @@
     text-align:center;
 }
 
-#button-1{
+/* #button-1{
+    background-color: orange;
+    border: 1px solid rgb(36, 36, 36);
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 20px;
+    color:rgb(34, 34, 34);
+    position:relative;
+    left:45%;
+    box-shadow: 3px 2px 1px;
+} */
+
+.buttonStyle{
     background-color: orange;
     border: 1px solid rgb(36, 36, 36);
     font-size: 30px;
@@ -16,7 +28,7 @@
     box-shadow: 3px 2px 1px;
 }
 
-#button-1:hover{
+.buttonStyle:hover{
     background-color: rgb(36, 36, 36);
     border: 1px solid orange;
     font-size: 30px;
@@ -28,3 +40,10 @@
     box-shadow: 1px;
 }
 
+.visible{
+    visibility:visible;
+}
+
+.hidden{
+    visibility:hidden;
+}
